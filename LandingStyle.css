@@ -1,0 +1,210 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    height: auto;
+    font-size: 15px;
+}
+
+.section-one-links {
+    display: flex;
+    gap: 75px;
+}
+
+.section-one-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/eldenringmoon.jpeg);
+    background-size: 100% 800px;
+    background-position: 90%;
+    height: 750px;
+    gap:5px;
+    flex-wrap: wrap;
+}
+
+.section-two-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    gap: 50px;
+}
+
+.section-two-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 460px;
+}
+
+.section-two-left p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+}
+
+.section-two-left button {
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: darkred;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.section-two-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    height: 460px;
+    flex-shrink: 1;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(33, 44, 80, 0.945);
+    height: 330px;
+}
+
+.section-three-line {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 6em rgb(237, 231, 231);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+    height:auto;
+}
+
+.section-three-items {
+    max-width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three-items img {
+    width: 100%;
+    height: 250px;
+    border-radius: 35px;
+    border: 2px solid white;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/EldenRingBackground.PNG);
+    background-size: 100% 800px;
+    background-position: 90%;
+    height: 750px;
+}
+
+.section-four-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+}
+
+.section-four-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 8%;
+}
+
+
+.section-four-right {
+    display: flex;
+    height: 400px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.section-four-right img {
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 4em rgb(69, 69, 69);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.section-three-items:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
